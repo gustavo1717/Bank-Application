@@ -1,0 +1,29 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* You can replace this with any font of your choice */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+    /* Background and layout */
+    background-color: #f5f5f5; /* Light gray background */
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+
+    /* Spacing */
+    padding: 20px;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto; 
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input[type="text"],input[type="password"], select {
+	width: 100%;
+}
+.error{
+    color:red;
+    font-style:italic;
+    font-weight:bold;
+}
